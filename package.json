@@ -1,0 +1,21 @@
+{
+  "name": "discord-forcebl-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord ForceBlacklist avec système de rôles et protection",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "better-sqlite3": "^9.4.3",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
